@@ -1,15 +1,20 @@
-class Dog
-  
+class Dog 
 
-def name=(dogs_name)
-@name = dogs_name
+def name=(name)
+  @name = name
 end
 
 def name
   @name
+  end
+
+
+def bark
+  puts "woof!"
+  end
 end
 
-def bark(bark ="woof!")
-puts "#{bark}"
-end
-end
+
+
+
+
